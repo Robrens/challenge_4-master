@@ -60,9 +60,6 @@ hr {
     margin-top: 8%;
 }
 
-main {
-
-}
 article {
     text-align: center;
 
@@ -84,9 +81,47 @@ article button {
     padding: 2%;
 }
 
+/*====================contacts==================== */
 section:last-child {
     background-color: #e3f0f7;
 }
-/*====================HEADER==================== */
+
+section:last-child i {
+    padding: 3% 5% 2% 2%;
+}
 
 /*====================FOOTER==================== */
+footer {
+    background-color: #2056AC;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 2% 0;
+}
+
+footer p {
+    color: #DEE9EA;
+    width: 100%;
+    padding: 0 0 3% 0;
+}
+
+footer nav {
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+footer li {
+    margin:  0 3% 0 0 ;
+    padding: 0 0 2% 0;
+}
+
+footer i {
+    background-color: rgb(76, 147, 185, 0);
+    color: #FFFFFF;
+}
